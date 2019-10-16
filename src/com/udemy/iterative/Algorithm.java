@@ -11,4 +11,11 @@ public class Algorithm {
 		return result;
 		
 	}
+	public int sumRecursive(int n) {
+		
+		if(n == 1) return 1;
+		
+		return n + sumRecursive(n - 1);
+		
+	}
 }
