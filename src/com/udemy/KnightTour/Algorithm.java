@@ -71,6 +71,7 @@ public class Algorithm {
 			for(int j=0;j<Constants.BOARD_SIZE;j++)
 				System.out.print(solutionMatrix[i][j]+" ");
 			System.out.println();
+			//test
 		}
 		
 	}
